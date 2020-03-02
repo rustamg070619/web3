@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8"/>
+    <title>web3-registration</title>
+</head>
+<body>
+
+<table style=" width: 100%; border: 4px double black;">
+    <tr>
+        <td style="border: 1px solid black; text-align: center">
+            <a href="/transaction">Transaction</a>
+        </td>
+    </tr>
+</table>
+
+<form form method="POST" action="/registration">
+    <table>
+        <tr>
+            <td><label for="nameField">Name</label></td>
+            <td><input id="nameField" type="text" name="name"></td>
+        </tr>
+        <tr>
+            <td><label for="passwordField">Password</label></td>
+            <td><input id="passwordField" type="password" name="password"></td>
+        </tr>
+        <tr>
+            <td><label for="moneyField">Money</label></td>
+            <td><input id="moneyField" type="text" name="money"></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center"><input type="submit" value="Submit"></td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>
+
